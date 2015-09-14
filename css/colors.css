@@ -1,0 +1,18 @@
+body {
+  color: #7c8695; }
+
+#header {
+  background-color: #87b448;
+  border-bottom: 2px solid #71973c; }
+
+#search-wrap .search-term {
+  background-color: #71973c;
+  color: #fff; }
+
+a {
+  color: #59606b; }
+
+.left-menu-content li {
+  border-bottom: 1px solid #e0e2e6; }
+
+/*# sourceMappingURL=colors.css.map */

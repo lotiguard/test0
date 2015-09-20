@@ -10,9 +10,40 @@ body {
   color: #fff; }
 
 a {
-  color: #59606b; }
+  color: #1c2534; }
 
 .left-menu-content li {
   border-bottom: 1px solid #e0e2e6; }
+  .left-menu-content li a {
+    color: #59606b; }
+    .left-menu-content li a:hover {
+      color: #71973c;
+      text-decoration: none; }
+
+.advertisement-block {
+  border-bottom: 1px solid #e0e2e6; }
+  .advertisement-block p {
+    color: #d3d3d3; }
+
+.category-wrap {
+  border-bottom: 1px solid #e0e2e6; }
+
+.footer {
+  color: #b7bfcd; }
+  .footer a {
+    color: #b7bfcd; }
+
+button {
+  color: #fff;
+  background-color: #87b448; }
+
+.service-items,
+.service-img {
+  border: 1px solid #e0e2e6; }
+
+.service-item:hover > .service-img {
+  background-color: #f4f7fb; }
+.service-item:hover > a {
+  color: #71973c; }
 
 /*# sourceMappingURL=colors.css.map */

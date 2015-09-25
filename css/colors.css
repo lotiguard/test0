@@ -36,6 +36,8 @@ a {
 button {
   color: #fff;
   background-color: #87b448; }
+  button:hover {
+    background-color: #71973c; }
 
 .service-items,
 .service-img {

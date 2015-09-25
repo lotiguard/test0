@@ -61,6 +61,8 @@ a {
 button {
   color: #fff;
   background-color: #87b448; }
+  button:hover {
+    background-color: #71973c; }
 
 .service-items,
 .service-img {
@@ -89,6 +91,12 @@ p,
 button,
 .item-tags {
   text-transform: capitalize; }
+
+button {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 6px 20px;
+  outline: none; }
 
 a:hover {
   text-decoration: underline; }
@@ -155,10 +163,7 @@ h3 {
         border-radius: 3px; }
       #header .user-wrap .user-info .user-name {
         width: 180px;
-        display: inline-block;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap; }
+        display: inline-block; }
         #header .user-wrap .user-info .user-name .clip {
           margin-left: 10px;
           line-height: 32px; }
@@ -241,9 +246,6 @@ h3 {
   padding: 4px 0px 4px 50px;
   line-height: 25px; }
 
-.grey-c {
-  background-color: #444; }
-
 .advertisement-block h3 {
   line-height: 52px; }
 .advertisement-block p {
@@ -278,6 +280,8 @@ h3 {
       top: 0;
       padding-left: 90px;
       width: 130px; }
+      .category-wrap .item-content a span:hover {
+        text-decoration: underline; }
   .category-wrap .item-content .item-tags {
     position: absolute;
     margin-left: 90px;
@@ -293,12 +297,6 @@ h3 {
       word-wrap: break-word; }
     .category-wrap .item-content .item-tags a {
       font-size: 12px; }
-
-button {
-  border: 1px solid transparent;
-  border-radius: 5px;
-  padding: 6px 20px;
-  outline: none; }
 
 .service-header {
   line-height: 40px;

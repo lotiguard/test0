@@ -23,6 +23,13 @@ button,
 .item-tags
  text-transform: capitalize
 
+button
+ border: 1px solid transparent
+ border-radius: 5px
+ padding: 6px 20px
+ outline: none
+
+
 a:hover
  text-decoration: underline
 
@@ -92,9 +99,6 @@ h3
    .user-name
     width: 180px
     display: inline-block
-    overflow: hidden
-    text-overflow: ellipsis
-    white-space: nowrap
     .clip
      margin-left: 10px
      line-height: 32px
@@ -186,8 +190,6 @@ h3
    //background: url(../img/icons/sprite-sl.png) no-repeat 0px -4px
    //background: url(../img/icons/sprite-sl.png) no-repeat 0px -38px
 
-.grey-c
- background-color: #444
 
 .advertisement-block
  h3
@@ -197,8 +199,8 @@ h3
   padding-top: 5px
   padding-bottom: 20px
 
+// featured companies, featured products, people you may know
 .category-wrap
- //margin-bottom: 20px
  .category-header
   padding: 20px 0
   h3
@@ -226,6 +228,8 @@ h3
     top: 0
     padding-left: 90px
     width: 130px
+    &:hover
+     text-decoration: underline
   .item-tags
    position: absolute
    margin-left: 90px
@@ -242,12 +246,7 @@ h3
    a
     font-size: 12px
 
-button
- border: 1px solid transparent
- border-radius: 5px
- padding: 6px 20px
- outline: none
-
+// Service Directory center block
 .service-header
  line-height: 40px
  height: 40px
@@ -294,6 +293,7 @@ button
   display: inline-block
   margin: 20px 20px 0 0
 
+// ellipsis adding
 .r
  display: block
  overflow: hidden
